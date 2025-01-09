@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotos de la Boda</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f4f6;
+        }
+        header {
+            background-color: #ff6f61;
+            color: white;
+            padding: 20px;
+        }
+        h1 {
+            margin: 0;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .photo {
+            margin: 10px;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        .photo img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+        }
+        .upload-section {
+            margin: 20px 0;
+        }
+        a.button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ff6f61;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        a.button:hover {
+            background-color: #e35b50;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Galería de Fotos de la Boda</h1>
+    </header>
+
+    <div class="upload-section">
+        <h2>Sube tus fotos aquí</h2>
+        <a href="https://www.dropbox.com/request/your_link_here" class="button" target="_blank">Subir Fotos</a>
+    </div>
+
+    <div class="gallery">
+        <!-- Aquí puedes añadir imágenes manualmente o enlazarlas desde un servicio externo -->
+        <div class="photo">
+            <img src="https://via.placeholder.com/300" alt="Foto 1">
+        </div>
+        <div class="photo">
+            <img src="https://via.placeholder.com/300" alt="Foto 2">
+        </div>
+        <div class="photo">
+            <img src="https://via.placeholder.com/300" alt="Foto 3">
+        </div>
+        <!-- Agrega más fotos aquí -->
+    </div>
+</body>
+</html>
